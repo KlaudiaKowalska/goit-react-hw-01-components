@@ -1,0 +1,33 @@
+.frienditem {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.name {
+  font-weight: bold;
+}
