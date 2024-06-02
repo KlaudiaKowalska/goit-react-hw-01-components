@@ -1,0 +1,32 @@
+.transactionHistory {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  background-color: blue;
+  color: white;
+}
+
+.tableBody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: white;
+}
+
+.tableColumn {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tableBody {
+  text-align: center;
+  text-transform: capitalize;
+}
+.tableColumn,
+.tableBody td {
+  border: 1px solid black;
+  padding: 8px;
+}
